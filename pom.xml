@@ -102,8 +102,6 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-		    <username>druid</username>
-		    <password>gandalf</password>
 	      <name>Acada Learning Snapshot Nexus Repository</name>
 	      <url>http://3.80.55.201:8081/repository/druid_snapshot/</url>
 	    </snapshotRepository>
