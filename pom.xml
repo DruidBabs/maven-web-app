@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:54.236.110.83:5000/</sonar.host.url>
-		<sonar.login>druid</sonar.login>
+		<sonar.host.url>http:18.209.45.173:6003/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
 		<sonar.password>gandalf</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -95,15 +95,13 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
-	      <name>Acada Learning Releases Nexus Repository</name>
-	      <url>http://34.227.206.105:8081/repository/druid_snapshot/</url>
+   		<id>druid_release</id>
+    		<url>http://18.209.45.173:6002/nexus/content/repositories/druid_release</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Acada Learning Snapshot Nexus Repository</name>
-	      <url>http://3.80.55.201:8081/repository/druid_snapshot/</url>
+	        <id>druid_snapshot</id>
+    		<url>http://18.209.45.173:6002/nexus/content/repositories/druid_snapshot</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
