@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:34.224.216.85:6003/</sonar.host.url>
+		<sonar.host.url>http:18.234.111.127:6003/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>gandalf</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,12 +96,12 @@
 	<distributionManagement>
 	    <repository>
    		<id>druid_release</id>
-    		<url>http://34.224.216.85:6002/nexus/content/repositories/druid_release</url>
+    		<url>http://18.234.111.127:6002/nexus/content/repositories/druid_release</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	        <id>druid_snapshot</id>
-    		<url>http://34.224.216.85:6002/nexus/content/repositories/druid_snapshot</url>
+    		<url>http://18.234.111.127:6002/nexus/content/repositories/druid_snapshot</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
