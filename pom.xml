@@ -100,8 +100,8 @@
 	    </repository>
 	    
 	    <snapshotRepository>
-   		<id>test_rep</id>
-    		<url>http://3.80.39.26:6002/nexus/content/repositories/test_rep</url>
+   		<id>druid_snapshot</id>
+    		<url>http://3.80.39.26:6002/nexus/content/repositories/druid_snapshot</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
